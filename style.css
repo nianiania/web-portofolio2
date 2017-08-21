@@ -107,5 +107,19 @@ header
 	
 .btn-half{
 
+	background-color: #D81B60;
+	color:white;
+
+}
+
+.btn-half:hover{
+
+	color:black;
+}
+
+.btn-full:hover{
+	background-color: #D81B60;
+	color:white;
+	transition: all 0.5s ease-in;
 }
 
