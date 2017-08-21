@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*======> HEADER /NAVBAR/ LOGO/ BUTTON<=============*/
+
+header
+{
+	background-image: url(img/fix.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+.logo{
+	
+	color:#F5EEF8;
+	opacity: 0.5;
+	margin-left: 50px;
+	font-family: 'Lora', serif;
+	font-family: 'Droid Serif', serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Signika', sans-serif;
+
+}
+
+.main-nav{
+	list-style:none;
+	float: right;
+	margin-top: 30px;
+	margin-right: 10%;
+	font-family: 'Lora', serif;
+	font-family: 'Droid Serif', serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Signika', sans-serif;
+	
+}
+
+.main-nav li{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.main-nav li a{
+	color:white;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: 'Lora', serif;
+	font-family: 'Droid Serif', serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Signika', sans-serif;
+}
+
+.main-nav li a:hover{
+
+	 color:white;
+	 border-bottom: 2px solid white;
+	 transition: all 0.3s ease-in;
+	 padding: 10px 0;
+}
+
+.hero h2{
+	color:white;
+	font-size: 15px;
+	margin-top: 13%;
+	margin-left: 50px;
+	font-family: 'Lora', serif;
+	font-family: 'Droid Serif', serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Signika', sans-serif;
+
+}
+
+.hero h1{
+	color:#FDFEFE;
+	margin-left: 50px;
+	margin-top: 10px;
+	border-left: 2px solid #D81B60;  /*#E91E63;*/
+	padding-left: 30px;
+	font-family: 'Lora', serif;
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+
+}
+
+.hero h3{
+	margin-left: 50px;
+	padding-left: 30px;
+	font-size: 40px;
+	color:white;
+	font-family: 'Lora', serif;
+	font-family: 'Playfair Display', serif;
+}
+
+
+.btn{
+	border:1px solid #D81B60;
+	padding: 10px 30px;
+	color:white;
+	text-decoration: none;
+	margin-left: 50px;
+	font-family: 'Lora', serif;
+	font-family: 'Droid Serif', serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Signika', sans-serif;
+}
+	
+.btn-half{
+
+}
+
