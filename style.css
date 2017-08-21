@@ -10,13 +10,16 @@ header
 	background-image: url(img/fix.jpg);
 	background-size: cover;
 	height: 100vh;
+	background-position: fixed;
 }
 
-.logo{
+.logo h1{
 	
 	color:#F5EEF8;
 	opacity: 0.5;
 	margin-left: 50px;
+	font-size: 20px;
+	padding-top: 40px;
 	font-family: 'Lora', serif;
 	font-family: 'Droid Serif', serif;
 	font-family: 'Roboto Mono', monospace;
@@ -27,7 +30,7 @@ header
 .main-nav{
 	list-style:none;
 	float: right;
-	margin-top: 30px;
+	
 	margin-right: 10%;
 	font-family: 'Lora', serif;
 	font-family: 'Droid Serif', serif;
