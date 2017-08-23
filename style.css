@@ -81,7 +81,7 @@ header
 	color:#FDFEFE;
 	margin-left: 50px;
 	margin-top: 10px;
-	border-left: 2px solid #D81B60;
+	border-left: 2px solid #C2185B;/*#D81B60;*/
 	padding-left: 30px;
 	font-family: 'Lora', serif;
 	font-family: 'Playfair Display', serif;
@@ -103,9 +103,9 @@ header
 	
 .btn-half{
 
-	background-color: #D81B60;
+	background-color: #C2185B;  /*#D81B60;*/
 	color:white;
-	border:1px solid #D81B60;
+	border:1px solid #C2185B;
 	padding: 10px 30px;
 	color:white;
 	text-decoration: none;
@@ -123,7 +123,7 @@ header
 }
 
 .btn-full{
-	border:1px solid #D81B60;
+	border:1px solid #C2185B;
 	padding: 10px 30px;
 	color:white;
 	text-decoration: none;
@@ -135,7 +135,7 @@ header
 }
 
 .btn-full:hover{
-	background-color: #D81B60;
+	background-color: #C2185B;
 	color:white;
 	transition: all 0.5s ease-in;
 }
@@ -171,7 +171,7 @@ header
 	font-family: 'Lora', serif;
 	font-family: 'Playfair Display', serif;
 	margin-right: 50px;
-	border-right: 2px solid #D81B60;
+	border-right: 2px solid #C2185B;
 	padding-right: 30px;
 	text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
 
@@ -191,13 +191,70 @@ header
 
 .btn-linked{
 	float: right;
-	border:1px solid #D81B60;
+	border:1px solid #C2185B;
 	padding: 10px 30px;
 	margin-right:50px;
 	box-shadow:  0 0 1rem rgba(0,0,0,.3);
 }
 
 .btn-linked:hover{
-	background-color: #D81B60;
+	background-color: #C2185B;
 	transition: all 0.5s ease-in;
 }
+
+
+.skill h2{
+
+	text-align: right;
+	font-size: 15px;
+	padding-top: 130px;
+	padding-bottom: 10px;
+	font-family: 'Lora', serif;
+	font-family: 'Droid Serif', serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Signika', sans-serif;
+	margin-right: 50px;
+
+}
+
+.skill h1{
+	text-align: right;
+	font-size: 40px;
+	font-family: 'Lora', serif;
+	font-family: 'Playfair Display', serif;
+	margin-right: 50px;
+	border-right: 2px solid #C2185B;
+	padding-right: 30px;
+	text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+
+}
+
+
+.skill h3{
+	text-align: right;
+	font-size: 15px;
+	font-family: 'Lora', serif;
+	font-family: 'Droid Serif', serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Signika', sans-serif;
+	margin-right: 50px;
+	padding-top: 10px;
+}
+
+
+.btn-git{
+	float: right;
+	border:1px solid #C2185B;
+	padding: 1px 10px;
+	margin-right:50px;
+	box-shadow:  0 0 1rem rgba(0,0,0,.4);
+}
+
+.btn-git:hover{
+	background-color: #C2185B;
+	transition: all 0.5s ease-in;
+}
+
+
+
+
