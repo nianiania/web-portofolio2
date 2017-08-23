@@ -10,7 +10,7 @@ header
 	background-image: url(img/fix.jpg);
 	background-size: cover;
 	height: 100vh;
-	background-position: fixed;
+	
 }
 
 .logo h1{
@@ -19,7 +19,8 @@ header
 	opacity: 0.5;
 	margin-left: 50px;
 	font-size: 20px;
-	padding-top: 40px;
+	padding-top: 50px;
+	margin-bottom: -10px;
 	font-family: 'Lora', serif;
 	font-family: 'Droid Serif', serif;
 	font-family: 'Roboto Mono', monospace;
@@ -30,7 +31,6 @@ header
 .main-nav{
 	list-style:none;
 	float: right;
-	
 	margin-right: 10%;
 	font-family: 'Lora', serif;
 	font-family: 'Droid Serif', serif;
@@ -42,6 +42,7 @@ header
 .main-nav li{
 	display: inline-block;
 	margin-left: 20px;
+	
 }
 
 .main-nav li a{
@@ -52,6 +53,7 @@ header
 	font-family: 'Droid Serif', serif;
 	font-family: 'Roboto Mono', monospace;
 	font-family: 'Signika', sans-serif;
+	
 }
 
 .main-nav li a:hover{
@@ -60,6 +62,7 @@ header
 	 border-bottom: 2px solid white;
 	 transition: all 0.3s ease-in;
 	 padding: 10px 0;
+
 }
 
 .hero h2{
@@ -78,11 +81,12 @@ header
 	color:#FDFEFE;
 	margin-left: 50px;
 	margin-top: 10px;
-	border-left: 2px solid #D81B60;  /*#E91E63;*/
+	border-left: 2px solid #D81B60;
 	padding-left: 30px;
 	font-family: 'Lora', serif;
 	font-family: 'Playfair Display', serif;
 	font-size: 40px;
+	text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
 
 }
 
@@ -93,10 +97,32 @@ header
 	color:white;
 	font-family: 'Lora', serif;
 	font-family: 'Playfair Display', serif;
+	text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
 }
 
+	
+.btn-half{
 
-.btn{
+	background-color: #D81B60;
+	color:white;
+	border:1px solid #D81B60;
+	padding: 10px 30px;
+	color:white;
+	text-decoration: none;
+	margin-left: 50px;
+	font-family: 'Lora', serif;
+	font-family: 'Droid Serif', serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Signika', sans-serif;
+
+}
+
+.btn-half:hover{
+
+	color:black;
+}
+
+.btn-full{
 	border:1px solid #D81B60;
 	padding: 10px 30px;
 	color:white;
@@ -107,18 +133,6 @@ header
 	font-family: 'Roboto Mono', monospace;
 	font-family: 'Signika', sans-serif;
 }
-	
-.btn-half{
-
-	background-color: #D81B60;
-	color:white;
-
-}
-
-.btn-half:hover{
-
-	color:black;
-}
 
 .btn-full:hover{
 	background-color: #D81B60;
@@ -126,3 +140,64 @@ header
 	transition: all 0.5s ease-in;
 }
 
+
+
+
+/*==============< SECTION ABOUT ME >===================*/
+
+#about{
+	background-image: url(img/bcg6.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.about h2{
+	text-align: right;
+	font-size: 15px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	font-family: 'Lora', serif;
+	font-family: 'Droid Serif', serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Signika', sans-serif;
+	margin-right: 50px;
+	
+}
+
+.about h1{
+	text-align: right;
+	font-size: 40px;
+	font-family: 'Lora', serif;
+	font-family: 'Playfair Display', serif;
+	margin-right: 50px;
+	border-right: 2px solid #D81B60;
+	padding-right: 30px;
+	text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+
+}
+
+.about h3{
+	text-align: right;
+	font-size: 15px;
+	font-family: 'Lora', serif;
+	font-family: 'Droid Serif', serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Signika', sans-serif;
+	margin-right: 50px;
+	padding-top: 10px;
+	
+}
+
+.btn-linked{
+	float: right;
+	border:1px solid #D81B60;
+	padding: 10px 30px;
+	margin-right:50px;
+	box-shadow:  0 0 1rem rgba(0,0,0,.3);
+}
+
+.btn-linked:hover{
+	background-color: #D81B60;
+	transition: all 0.5s ease-in;
+}
